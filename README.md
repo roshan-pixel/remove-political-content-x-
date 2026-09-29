@@ -260,16 +260,22 @@ python main.py --mode following
 
 ## Safety & Whitelist Guardrails
 
-The engine strictly guards technical and educational creators. The following handles are permanently whitelisted in `config.py` and can never be blocked:
+The engine strictly guards technical and educational creators, as well as financial market infrastructure. The following handles are permanently whitelisted in `config.py` and can never be blocked:
 
 ```python
 PROTECTED_WHITELIST = {
+    # AI & Tech
     "karpathy", "gdb", "fchollet", "sama", "ylecun", "elonmusk", "huggingface",
     "OpenAI", "Google", "GoogleAI", "AnthropicAI", "github", "Bugcrowd",
     "hackthebox_eu", "thedawgyg", "stokfredrik", "InsiderPhD", "intigriti",
     "TCMSecurity", "Hacker0x01", "Uber_Comms", "cyberswag_voxel", "ChuanmingLiu",
     "hingeloss", "DrJimFan", "Tesla_AI", "adcock_brett", "akshay_pachaar",
-    "axbom", "Techmeme", "KaulAyushman", "TheOndrakGuy", "deepseek_ai"
+    "axbom", "Techmeme", "KaulAyushman", "TheOndrakGuy", "deepseek_ai",
+
+    # Financial Markets, Stock Exchanges & Central Banking (NEVER BLOCK)
+    "bse_sensex", "BSEIndia", "NSEIndia", "RBI", "SEBI_India", "Nifty50",
+    "moneycontrolcom", "livemint", "cnbctv18news", "ZerodhaVarsity", "zerodhaonline",
+    "Groww", "Upstox"
 }
 ```
 
