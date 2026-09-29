@@ -1,0 +1,1782 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "bridge_client.py",
+      "file_type": "code",
+      "source_file": "bridge_client.py",
+      "source_location": "L1",
+      "id": "bridge_client_py",
+      "community": 1,
+      "norm_label": "bridge_client.py"
+    },
+    {
+      "label": "BridgeClient",
+      "file_type": "code",
+      "source_file": "bridge_client.py",
+      "source_location": "L12",
+      "id": "remove_political_content_x_bridge_client_bridgeclient",
+      "community": 1,
+      "norm_label": "bridgeclient"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "bridge_client.py",
+      "source_location": "L13",
+      "id": "remove_political_content_x_bridge_client_bridgeclient_init",
+      "community": 1,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".send_command()",
+      "file_type": "code",
+      "source_file": "bridge_client.py",
+      "source_location": "L18",
+      "id": "remove_political_content_x_bridge_client_bridgeclient_send_command",
+      "community": 4,
+      "norm_label": ".send_command()"
+    },
+    {
+      "label": ".navigate()",
+      "file_type": "code",
+      "source_file": "bridge_client.py",
+      "source_location": "L40",
+      "id": "remove_political_content_x_bridge_client_bridgeclient_navigate",
+      "community": 4,
+      "norm_label": ".navigate()"
+    },
+    {
+      "label": ".evaluate()",
+      "file_type": "code",
+      "source_file": "bridge_client.py",
+      "source_location": "L50",
+      "id": "remove_political_content_x_bridge_client_bridgeclient_evaluate",
+      "community": 4,
+      "norm_label": ".evaluate()"
+    },
+    {
+      "label": ".is_daemon_alive()",
+      "file_type": "code",
+      "source_file": "bridge_client.py",
+      "source_location": "L65",
+      "id": "remove_political_content_x_bridge_client_bridgeclient_is_daemon_alive",
+      "community": 1,
+      "norm_label": ".is_daemon_alive()"
+    },
+    {
+      "label": ".is_extension_connected()",
+      "file_type": "code",
+      "source_file": "bridge_client.py",
+      "source_location": "L76",
+      "id": "remove_political_content_x_bridge_client_bridgeclient_is_extension_connected",
+      "community": 1,
+      "norm_label": ".is_extension_connected()"
+    },
+    {
+      "label": "Resilient client interface for Kimi WebBridge Daemon. Manages HTTP command dispa",
+      "file_type": "rationale",
+      "source_file": "bridge_client.py",
+      "source_location": "L1",
+      "id": "remove_political_content_x_bridge_client_rationale_1",
+      "community": 1,
+      "norm_label": "resilient client interface for kimi webbridge daemon. manages http command dispa"
+    },
+    {
+      "label": "Dispatches an action payload to the Kimi WebBridge HTTP daemon.",
+      "file_type": "rationale",
+      "source_file": "bridge_client.py",
+      "source_location": "L19",
+      "id": "remove_political_content_x_bridge_client_rationale_19",
+      "community": 4,
+      "norm_label": "dispatches an action payload to the kimi webbridge http daemon."
+    },
+    {
+      "label": "Navigates the browser session to the target URL.",
+      "file_type": "rationale",
+      "source_file": "bridge_client.py",
+      "source_location": "L41",
+      "id": "remove_political_content_x_bridge_client_rationale_41",
+      "community": 4,
+      "norm_label": "navigates the browser session to the target url."
+    },
+    {
+      "label": "Evaluates JavaScript asynchronously in the active page context.",
+      "file_type": "rationale",
+      "source_file": "bridge_client.py",
+      "source_location": "L51",
+      "id": "remove_political_content_x_bridge_client_rationale_51",
+      "community": 4,
+      "norm_label": "evaluates javascript asynchronously in the active page context."
+    },
+    {
+      "label": "Checks if the local WebBridge daemon is active and responding.",
+      "file_type": "rationale",
+      "source_file": "bridge_client.py",
+      "source_location": "L66",
+      "id": "remove_political_content_x_bridge_client_rationale_66",
+      "community": 1,
+      "norm_label": "checks if the local webbridge daemon is active and responding."
+    },
+    {
+      "label": "Checks if the browser extension WebSocket is attached to the daemon.",
+      "file_type": "rationale",
+      "source_file": "bridge_client.py",
+      "source_location": "L77",
+      "id": "remove_political_content_x_bridge_client_rationale_77",
+      "community": 1,
+      "norm_label": "checks if the browser extension websocket is attached to the daemon."
+    },
+    {
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "id": "config_py",
+      "community": 7,
+      "norm_label": "config.py"
+    },
+    {
+      "label": "Configuration and Seed List definitions for X Political Content Remover.",
+      "file_type": "rationale",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "id": "remove_political_content_x_config_rationale_1",
+      "community": 7,
+      "norm_label": "configuration and seed list definitions for x political content remover."
+    },
+    {
+      "label": "daemon_manager.py",
+      "file_type": "code",
+      "source_file": "daemon_manager.py",
+      "source_location": "L1",
+      "id": "daemon_manager_py",
+      "community": 1,
+      "norm_label": "daemon_manager.py"
+    },
+    {
+      "label": "DaemonManager",
+      "file_type": "code",
+      "source_file": "daemon_manager.py",
+      "source_location": "L12",
+      "id": "remove_political_content_x_daemon_manager_daemonmanager",
+      "community": 1,
+      "norm_label": "daemonmanager"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "daemon_manager.py",
+      "source_location": "L13",
+      "id": "remove_political_content_x_daemon_manager_daemonmanager_init",
+      "community": 1,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".ensure_daemon_running()",
+      "file_type": "code",
+      "source_file": "daemon_manager.py",
+      "source_location": "L18",
+      "id": "remove_political_content_x_daemon_manager_daemonmanager_ensure_daemon_running",
+      "community": 1,
+      "norm_label": ".ensure_daemon_running()"
+    },
+    {
+      "label": ".wait_for_extension()",
+      "file_type": "code",
+      "source_file": "daemon_manager.py",
+      "source_location": "L52",
+      "id": "remove_political_content_x_daemon_manager_daemonmanager_wait_for_extension",
+      "community": 1,
+      "norm_label": ".wait_for_extension()"
+    },
+    {
+      "label": "Daemon lifecycle manager for Kimi WebBridge. Handles independent process startup",
+      "file_type": "rationale",
+      "source_file": "daemon_manager.py",
+      "source_location": "L1",
+      "id": "remove_political_content_x_daemon_manager_rationale_1",
+      "community": 1,
+      "norm_label": "daemon lifecycle manager for kimi webbridge. handles independent process startup"
+    },
+    {
+      "label": "Ensures the daemon is listening. Starts it detached if stopped.",
+      "file_type": "rationale",
+      "source_file": "daemon_manager.py",
+      "source_location": "L19",
+      "id": "remove_political_content_x_daemon_manager_rationale_19",
+      "community": 1,
+      "norm_label": "ensures the daemon is listening. starts it detached if stopped."
+    },
+    {
+      "label": "Waits for the browser extension to connect.",
+      "file_type": "rationale",
+      "source_file": "daemon_manager.py",
+      "source_location": "L53",
+      "id": "remove_political_content_x_daemon_manager_rationale_53",
+      "community": 1,
+      "norm_label": "waits for the browser extension to connect."
+    },
+    {
+      "label": "filter_rules.py",
+      "file_type": "code",
+      "source_file": "filter_rules.py",
+      "source_location": "L1",
+      "id": "filter_rules_py",
+      "community": 2,
+      "norm_label": "filter_rules.py"
+    },
+    {
+      "label": "ContentFilter",
+      "file_type": "code",
+      "source_file": "filter_rules.py",
+      "source_location": "L20",
+      "id": "remove_political_content_x_filter_rules_contentfilter",
+      "community": 2,
+      "norm_label": "contentfilter"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "filter_rules.py",
+      "source_location": "L21",
+      "id": "remove_political_content_x_filter_rules_contentfilter_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".is_protected()",
+      "file_type": "code",
+      "source_file": "filter_rules.py",
+      "source_location": "L24",
+      "id": "remove_political_content_x_filter_rules_contentfilter_is_protected",
+      "community": 2,
+      "norm_label": ".is_protected()"
+    },
+    {
+      "label": ".is_political_or_news()",
+      "file_type": "code",
+      "source_file": "filter_rules.py",
+      "source_location": "L31",
+      "id": "remove_political_content_x_filter_rules_contentfilter_is_political_or_news",
+      "community": 2,
+      "norm_label": ".is_political_or_news()"
+    },
+    {
+      "label": "Political and News Content Classification Rules. Provides fast heuristic filteri",
+      "file_type": "rationale",
+      "source_file": "filter_rules.py",
+      "source_location": "L1",
+      "id": "remove_political_content_x_filter_rules_rationale_1",
+      "community": 2,
+      "norm_label": "political and news content classification rules. provides fast heuristic filteri"
+    },
+    {
+      "label": "Returns True if the handle belongs to the protected tech/creator whitelist.",
+      "file_type": "rationale",
+      "source_file": "filter_rules.py",
+      "source_location": "L25",
+      "id": "remove_political_content_x_filter_rules_rationale_25",
+      "community": 2,
+      "norm_label": "returns true if the handle belongs to the protected tech/creator whitelist."
+    },
+    {
+      "label": "Evaluates whether an account matches political, government, or news media heuris",
+      "file_type": "rationale",
+      "source_file": "filter_rules.py",
+      "source_location": "L32",
+      "id": "remove_political_content_x_filter_rules_rationale_32",
+      "community": 2,
+      "norm_label": "evaluates whether an account matches political, government, or news media heuris"
+    },
+    {
+      "label": "following_cleaner.py",
+      "file_type": "code",
+      "source_file": "following_cleaner.py",
+      "source_location": "L1",
+      "id": "following_cleaner_py",
+      "community": 2,
+      "norm_label": "following_cleaner.py"
+    },
+    {
+      "label": "FollowingCleaner",
+      "file_type": "code",
+      "source_file": "following_cleaner.py",
+      "source_location": "L73",
+      "id": "remove_political_content_x_following_cleaner_followingcleaner",
+      "community": 2,
+      "norm_label": "followingcleaner"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "following_cleaner.py",
+      "source_location": "L74",
+      "id": "remove_political_content_x_following_cleaner_followingcleaner_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".clean_following()",
+      "file_type": "code",
+      "source_file": "following_cleaner.py",
+      "source_location": "L78",
+      "id": "remove_political_content_x_following_cleaner_followingcleaner_clean_following",
+      "community": 2,
+      "norm_label": ".clean_following()"
+    },
+    {
+      "label": "Following Cleaner Module. Audits the authenticated user's Following list, identi",
+      "file_type": "rationale",
+      "source_file": "following_cleaner.py",
+      "source_location": "L1",
+      "id": "remove_political_content_x_following_cleaner_rationale_1",
+      "community": 2,
+      "norm_label": "following cleaner module. audits the authenticated user's following list, identi"
+    },
+    {
+      "label": "Iterates over targeted handles and blocks them sequentially.",
+      "file_type": "rationale",
+      "source_file": "following_cleaner.py",
+      "source_location": "L79",
+      "id": "remove_political_content_x_following_cleaner_rationale_79",
+      "community": 2,
+      "norm_label": "iterates over targeted handles and blocks them sequentially."
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "id": "main_py",
+      "community": 1,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L14",
+      "id": "remove_political_content_x_main_main",
+      "community": 1,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Main entrypoint for X Political Content Remover. Provides CLI commands to clean",
+      "file_type": "rationale",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "id": "remove_political_content_x_main_rationale_1",
+      "community": 1,
+      "norm_label": "main entrypoint for x political content remover. provides cli commands to clean"
+    },
+    {
+      "label": "sidebar_crawler.py",
+      "file_type": "code",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L1",
+      "id": "sidebar_crawler_py",
+      "community": 0,
+      "norm_label": "sidebar_crawler.py"
+    },
+    {
+      "label": "SidebarCrawler",
+      "file_type": "code",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L84",
+      "id": "remove_political_content_x_sidebar_crawler_sidebarcrawler",
+      "community": 0,
+      "norm_label": "sidebarcrawler"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L85",
+      "id": "remove_political_content_x_sidebar_crawler_sidebarcrawler_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".run_discovery_loop()",
+      "file_type": "code",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L90",
+      "id": "remove_political_content_x_sidebar_crawler_sidebarcrawler_run_discovery_loop",
+      "community": 0,
+      "norm_label": ".run_discovery_loop()"
+    },
+    {
+      "label": "Recursive Sidebar Recommendation Crawler. Visits target accounts, extracts recom",
+      "file_type": "rationale",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L1",
+      "id": "remove_political_content_x_sidebar_crawler_rationale_1",
+      "community": 0,
+      "norm_label": "recursive sidebar recommendation crawler. visits target accounts, extracts recom"
+    },
+    {
+      "label": "Executes the BFS recommendation discovery and blocking loop.",
+      "file_type": "rationale",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L91",
+      "id": "remove_political_content_x_sidebar_crawler_rationale_91",
+      "community": 0,
+      "norm_label": "executes the bfs recommendation discovery and blocking loop."
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 3,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "X Political Content & Journalist Purge Engine",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "community": 3,
+      "norm_label": "x political content & journalist purge engine"
+    },
+    {
+      "label": "Table of Contents",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "id": "remove_political_content_x_readme_table_of_contents",
+      "community": 3,
+      "norm_label": "table of contents"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "id": "remove_political_content_x_readme_overview",
+      "community": 3,
+      "norm_label": "overview"
+    },
+    {
+      "label": "System Architecture Diagram",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "id": "remove_political_content_x_readme_system_architecture_diagram",
+      "community": 3,
+      "norm_label": "system architecture diagram"
+    },
+    {
+      "label": "code:mermaid (flowchart TD)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "id": "remove_political_content_x_readme_codeblock_1",
+      "community": 3,
+      "norm_label": "code:mermaid (flowchart td)"
+    },
+    {
+      "label": "Core Engineering Highlights",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L84",
+      "id": "remove_political_content_x_readme_core_engineering_highlights",
+      "community": 3,
+      "norm_label": "core engineering highlights"
+    },
+    {
+      "label": "1. Zero-Credential In-Browser Automation via Kimi WebBridge",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L86",
+      "id": "remove_political_content_x_readme_1_zero_credential_in_browser_automation_via_kimi_webbridge",
+      "community": 3,
+      "norm_label": "1. zero-credential in-browser automation via kimi webbridge"
+    },
+    {
+      "label": "2. Recursive Sidebar Recommendation Crawler (BFS Discovery Loop)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L91",
+      "id": "remove_political_content_x_readme_2_recursive_sidebar_recommendation_crawler_bfs_discovery_loop",
+      "community": 3,
+      "norm_label": "2. recursive sidebar recommendation crawler (bfs discovery loop)"
+    },
+    {
+      "label": "3. Precision Heuristic Classifier & Whitelisting Guardrail",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "id": "remove_political_content_x_readme_3_precision_heuristic_classifier_whitelisting_guardrail",
+      "community": 3,
+      "norm_label": "3. precision heuristic classifier & whitelisting guardrail"
+    },
+    {
+      "label": "4. Resilient Multi-Stage DOM Action Pipeline",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L105",
+      "id": "remove_political_content_x_readme_4_resilient_multi_stage_dom_action_pipeline",
+      "community": 3,
+      "norm_label": "4. resilient multi-stage dom action pipeline"
+    },
+    {
+      "label": "End-to-End Sequence Flow",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L114",
+      "id": "remove_political_content_x_readme_end_to_end_sequence_flow",
+      "community": 3,
+      "norm_label": "end-to-end sequence flow"
+    },
+    {
+      "label": "code:mermaid (sequenceDiagram)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "id": "remove_political_content_x_readme_codeblock_2",
+      "community": 3,
+      "norm_label": "code:mermaid (sequencediagram)"
+    },
+    {
+      "label": "Graphify Knowledge Graph & Codebase Navigation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L175",
+      "id": "remove_political_content_x_readme_graphify_knowledge_graph_codebase_navigation",
+      "community": 6,
+      "norm_label": "graphify knowledge graph & codebase navigation"
+    },
+    {
+      "label": "Graph Metrics",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L179",
+      "id": "remove_political_content_x_readme_graph_metrics",
+      "community": 6,
+      "norm_label": "graph metrics"
+    },
+    {
+      "label": "Core Abstractions (God Nodes)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L185",
+      "id": "remove_political_content_x_readme_core_abstractions_god_nodes",
+      "community": 6,
+      "norm_label": "core abstractions (god nodes)"
+    },
+    {
+      "label": "Visual Interactive Graphs",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L192",
+      "id": "remove_political_content_x_readme_visual_interactive_graphs",
+      "community": 6,
+      "norm_label": "visual interactive graphs"
+    },
+    {
+      "label": "Graph Queries",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L196",
+      "id": "remove_political_content_x_readme_graph_queries",
+      "community": 6,
+      "norm_label": "graph queries"
+    },
+    {
+      "label": "code:bash (# Query architectural paths between components)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L198",
+      "id": "remove_political_content_x_readme_codeblock_3",
+      "community": 6,
+      "norm_label": "code:bash (# query architectural paths between components)"
+    },
+    {
+      "label": "Codebase Components",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L211",
+      "id": "remove_political_content_x_readme_codebase_components",
+      "community": 3,
+      "norm_label": "codebase components"
+    },
+    {
+      "label": "Getting Started & Usage",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L225",
+      "id": "remove_political_content_x_readme_getting_started_usage",
+      "community": 5,
+      "norm_label": "getting started & usage"
+    },
+    {
+      "label": "1. Prerequisites",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L227",
+      "id": "remove_political_content_x_readme_1_prerequisites",
+      "community": 5,
+      "norm_label": "1. prerequisites"
+    },
+    {
+      "label": "2. Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L232",
+      "id": "remove_political_content_x_readme_2_installation",
+      "community": 5,
+      "norm_label": "2. installation"
+    },
+    {
+      "label": "code:bash (git clone https://github.com/roshan-pixel/remove-political-c)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L233",
+      "id": "remove_political_content_x_readme_codeblock_4",
+      "community": 5,
+      "norm_label": "code:bash (git clone https://github.com/roshan-pixel/remove-political-c)"
+    },
+    {
+      "label": "3. Verify Daemon & Extension Status",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L238",
+      "id": "remove_political_content_x_readme_3_verify_daemon_extension_status",
+      "community": 5,
+      "norm_label": "3. verify daemon & extension status"
+    },
+    {
+      "label": "code:bash (python main.py --mode status)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L239",
+      "id": "remove_political_content_x_readme_codeblock_5",
+      "community": 5,
+      "norm_label": "code:bash (python main.py --mode status)"
+    },
+    {
+      "label": "code:block6 ([+] Kimi WebBridge daemon and extension are operational.)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L243",
+      "id": "remove_political_content_x_readme_codeblock_6",
+      "community": 5,
+      "norm_label": "code:block6 ([+] kimi webbridge daemon and extension are operational.)"
+    },
+    {
+      "label": "4. Run Recursive Sidebar Crawler",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L247",
+      "id": "remove_political_content_x_readme_4_run_recursive_sidebar_crawler",
+      "community": 5,
+      "norm_label": "4. run recursive sidebar crawler"
+    },
+    {
+      "label": "code:bash (python main.py --mode crawl --max 200)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L249",
+      "id": "remove_political_content_x_readme_codeblock_7",
+      "community": 5,
+      "norm_label": "code:bash (python main.py --mode crawl --max 200)"
+    },
+    {
+      "label": "5. Run Following Purge",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L253",
+      "id": "remove_political_content_x_readme_5_run_following_purge",
+      "community": 5,
+      "norm_label": "5. run following purge"
+    },
+    {
+      "label": "code:bash (python main.py --mode following)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L255",
+      "id": "remove_political_content_x_readme_codeblock_8",
+      "community": 5,
+      "norm_label": "code:bash (python main.py --mode following)"
+    },
+    {
+      "label": "Safety & Whitelist Guardrails",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L261",
+      "id": "remove_political_content_x_readme_safety_whitelist_guardrails",
+      "community": 3,
+      "norm_label": "safety & whitelist guardrails"
+    },
+    {
+      "label": "code:python (PROTECTED_WHITELIST = {)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L265",
+      "id": "remove_political_content_x_readme_codeblock_9",
+      "community": 3,
+      "norm_label": "code:python (protected_whitelist = {)"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L278",
+      "id": "remove_political_content_x_readme_license",
+      "community": 3,
+      "norm_label": "license"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "bridge_client_py",
+      "target": "remove_political_content_x_bridge_client_bridgeclient"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_rationale_1",
+      "target": "bridge_client_py"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_bridgeclient",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_bridgeclient",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_send_command"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_bridgeclient",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_navigate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_bridgeclient",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_evaluate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_bridgeclient",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_is_daemon_alive"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_bridgeclient",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_is_extension_connected"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "source": "remove_political_content_x_daemon_manager_daemonmanager",
+      "target": "remove_political_content_x_bridge_client_bridgeclient",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "remove_political_content_x_following_cleaner_followingcleaner",
+      "target": "remove_political_content_x_bridge_client_bridgeclient",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "source": "remove_political_content_x_sidebar_crawler_sidebarcrawler",
+      "target": "remove_political_content_x_bridge_client_bridgeclient",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "daemon_manager.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "remove_political_content_x_daemon_manager_daemonmanager_init",
+      "target": "remove_political_content_x_bridge_client_bridgeclient"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "remove_political_content_x_main_main",
+      "target": "remove_political_content_x_bridge_client_bridgeclient"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "daemon_manager_py",
+      "target": "remove_political_content_x_bridge_client_bridgeclient"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "following_cleaner_py",
+      "target": "remove_political_content_x_bridge_client_bridgeclient"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "sidebar_crawler_py",
+      "target": "remove_political_content_x_bridge_client_bridgeclient"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_bridgeclient_navigate",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_send_command"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_bridgeclient_evaluate",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_send_command"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_rationale_19",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_send_command"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_rationale_41",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_navigate"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_rationale_51",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_evaluate"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_rationale_66",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_is_daemon_alive"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "bridge_client.py",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_bridge_client_rationale_77",
+      "target": "remove_political_content_x_bridge_client_bridgeclient_is_extension_connected"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_config_rationale_1",
+      "target": "config_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "daemon_manager_py",
+      "target": "remove_political_content_x_daemon_manager_daemonmanager",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_daemon_manager_rationale_1",
+      "target": "daemon_manager_py"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "daemon_manager_py",
+      "target": "remove_political_content_x_daemon_manager_daemonmanager_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "daemon_manager_py",
+      "target": "remove_political_content_x_daemon_manager_daemonmanager_ensure_daemon_running"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "daemon_manager_py",
+      "target": "remove_political_content_x_daemon_manager_daemonmanager_wait_for_extension"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "remove_political_content_x_main_main",
+      "target": "daemon_manager_py"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "remove_political_content_x_daemon_manager_daemonmanager",
+      "target": "remove_political_content_x_daemon_manager_daemonmanager_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "remove_political_content_x_daemon_manager_daemonmanager",
+      "target": "remove_political_content_x_daemon_manager_daemonmanager_ensure_daemon_running",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "remove_political_content_x_daemon_manager_daemonmanager",
+      "target": "remove_political_content_x_daemon_manager_daemonmanager_wait_for_extension",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "remove_political_content_x_main_main",
+      "target": "remove_political_content_x_daemon_manager_daemonmanager"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_daemon_manager_rationale_19",
+      "target": "remove_political_content_x_daemon_manager_daemonmanager_ensure_daemon_running"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "daemon_manager.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_daemon_manager_rationale_53",
+      "target": "remove_political_content_x_daemon_manager_daemonmanager_wait_for_extension"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "filter_rules.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "filter_rules_py",
+      "target": "remove_political_content_x_filter_rules_contentfilter"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "filter_rules.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_filter_rules_rationale_1",
+      "target": "filter_rules_py"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "filter_rules.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_filter_rules_contentfilter",
+      "target": "remove_political_content_x_filter_rules_contentfilter_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "filter_rules.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_filter_rules_contentfilter",
+      "target": "remove_political_content_x_filter_rules_contentfilter_is_protected"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "filter_rules.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_filter_rules_contentfilter",
+      "target": "remove_political_content_x_filter_rules_contentfilter_is_political_or_news"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "source": "remove_political_content_x_following_cleaner_followingcleaner",
+      "target": "remove_political_content_x_filter_rules_contentfilter",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "remove_political_content_x_sidebar_crawler_sidebarcrawler",
+      "target": "remove_political_content_x_filter_rules_contentfilter",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "following_cleaner.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "remove_political_content_x_following_cleaner_followingcleaner_init",
+      "target": "remove_political_content_x_filter_rules_contentfilter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "remove_political_content_x_sidebar_crawler_sidebarcrawler_init",
+      "target": "remove_political_content_x_filter_rules_contentfilter"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "following_cleaner_py",
+      "target": "remove_political_content_x_filter_rules_contentfilter"
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "confidence_score": 0.5,
+      "source": "sidebar_crawler_py",
+      "target": "remove_political_content_x_filter_rules_contentfilter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "filter_rules.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_filter_rules_contentfilter_is_political_or_news",
+      "target": "remove_political_content_x_filter_rules_contentfilter_is_protected"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "filter_rules.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_filter_rules_rationale_25",
+      "target": "remove_political_content_x_filter_rules_contentfilter_is_protected"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "filter_rules.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_filter_rules_rationale_32",
+      "target": "remove_political_content_x_filter_rules_contentfilter_is_political_or_news"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "following_cleaner_py",
+      "target": "remove_political_content_x_following_cleaner_followingcleaner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_following_cleaner_rationale_1",
+      "target": "following_cleaner_py"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "following_cleaner_py",
+      "target": "remove_political_content_x_following_cleaner_followingcleaner_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "following_cleaner_py",
+      "target": "remove_political_content_x_following_cleaner_followingcleaner_clean_following"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "remove_political_content_x_main_main",
+      "target": "following_cleaner_py"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "remove_political_content_x_following_cleaner_followingcleaner",
+      "target": "remove_political_content_x_following_cleaner_followingcleaner_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "remove_political_content_x_following_cleaner_followingcleaner",
+      "target": "remove_political_content_x_following_cleaner_followingcleaner_clean_following",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "remove_political_content_x_main_main",
+      "target": "remove_political_content_x_following_cleaner_followingcleaner"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "following_cleaner.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_following_cleaner_rationale_79",
+      "target": "remove_political_content_x_following_cleaner_followingcleaner_clean_following"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "main_py",
+      "target": "remove_political_content_x_main_main"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_main_rationale_1",
+      "target": "main_py"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "remove_political_content_x_main_main",
+      "target": "remove_political_content_x_sidebar_crawler_sidebarcrawler"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "main.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "remove_political_content_x_main_main",
+      "target": "sidebar_crawler_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "sidebar_crawler_py",
+      "target": "remove_political_content_x_sidebar_crawler_sidebarcrawler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_sidebar_crawler_rationale_1",
+      "target": "sidebar_crawler_py"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sidebar_crawler_py",
+      "target": "remove_political_content_x_sidebar_crawler_sidebarcrawler_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sidebar_crawler_py",
+      "target": "remove_political_content_x_sidebar_crawler_sidebarcrawler_run_discovery_loop"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "remove_political_content_x_sidebar_crawler_sidebarcrawler",
+      "target": "remove_political_content_x_sidebar_crawler_sidebarcrawler_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "remove_political_content_x_sidebar_crawler_sidebarcrawler",
+      "target": "remove_political_content_x_sidebar_crawler_sidebarcrawler_run_discovery_loop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "sidebar_crawler.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "remove_political_content_x_sidebar_crawler_rationale_91",
+      "target": "remove_political_content_x_sidebar_crawler_sidebarcrawler_run_discovery_loop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "target": "remove_political_content_x_readme_table_of_contents",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "target": "remove_political_content_x_readme_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "target": "remove_political_content_x_readme_system_architecture_diagram",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "target": "remove_political_content_x_readme_core_engineering_highlights",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "target": "remove_political_content_x_readme_end_to_end_sequence_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "target": "remove_political_content_x_readme_graphify_knowledge_graph_codebase_navigation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "target": "remove_political_content_x_readme_codebase_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L225",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "target": "remove_political_content_x_readme_getting_started_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L261",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "target": "remove_political_content_x_readme_safety_whitelist_guardrails",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L278",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_x_political_content_journalist_purge_engine",
+      "target": "remove_political_content_x_readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_system_architecture_diagram",
+      "target": "remove_political_content_x_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_core_engineering_highlights",
+      "target": "remove_political_content_x_readme_1_zero_credential_in_browser_automation_via_kimi_webbridge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_core_engineering_highlights",
+      "target": "remove_political_content_x_readme_2_recursive_sidebar_recommendation_crawler_bfs_discovery_loop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_core_engineering_highlights",
+      "target": "remove_political_content_x_readme_3_precision_heuristic_classifier_whitelisting_guardrail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_core_engineering_highlights",
+      "target": "remove_political_content_x_readme_4_resilient_multi_stage_dom_action_pipeline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_end_to_end_sequence_flow",
+      "target": "remove_political_content_x_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_graphify_knowledge_graph_codebase_navigation",
+      "target": "remove_political_content_x_readme_graph_metrics",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_graphify_knowledge_graph_codebase_navigation",
+      "target": "remove_political_content_x_readme_core_abstractions_god_nodes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_graphify_knowledge_graph_codebase_navigation",
+      "target": "remove_political_content_x_readme_visual_interactive_graphs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L196",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_graphify_knowledge_graph_codebase_navigation",
+      "target": "remove_political_content_x_readme_graph_queries",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_graph_queries",
+      "target": "remove_political_content_x_readme_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_getting_started_usage",
+      "target": "remove_political_content_x_readme_1_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L232",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_getting_started_usage",
+      "target": "remove_political_content_x_readme_2_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_getting_started_usage",
+      "target": "remove_political_content_x_readme_3_verify_daemon_extension_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L247",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_getting_started_usage",
+      "target": "remove_political_content_x_readme_4_run_recursive_sidebar_crawler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L253",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_getting_started_usage",
+      "target": "remove_political_content_x_readme_5_run_following_purge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_2_installation",
+      "target": "remove_political_content_x_readme_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L239",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_3_verify_daemon_extension_status",
+      "target": "remove_political_content_x_readme_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L243",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_3_verify_daemon_extension_status",
+      "target": "remove_political_content_x_readme_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L249",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_4_run_recursive_sidebar_crawler",
+      "target": "remove_political_content_x_readme_codeblock_7",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L255",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_5_run_following_purge",
+      "target": "remove_political_content_x_readme_codeblock_8",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L265",
+      "weight": 1.0,
+      "source": "remove_political_content_x_readme_safety_whitelist_guardrails",
+      "target": "remove_political_content_x_readme_codeblock_9",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

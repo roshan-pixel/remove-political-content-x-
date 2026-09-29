@@ -1,0 +1,152 @@
+{
+  "communities": {
+    "0": [
+      "main_py",
+      "remove_political_content_x_main_main",
+      "remove_political_content_x_main_rationale_1",
+      "remove_political_content_x_sidebar_crawler_rationale_1",
+      "remove_political_content_x_sidebar_crawler_rationale_91",
+      "remove_political_content_x_sidebar_crawler_sidebarcrawler_init",
+      "remove_political_content_x_sidebar_crawler_sidebarcrawler_run_discovery_loop",
+      "sidebar_crawler_py"
+    ],
+    "1": [
+      "daemon_manager_py",
+      "remove_political_content_x_daemon_manager_daemonmanager_ensure_daemon_running",
+      "remove_political_content_x_daemon_manager_daemonmanager_init",
+      "remove_political_content_x_daemon_manager_daemonmanager_wait_for_extension",
+      "remove_political_content_x_daemon_manager_rationale_1",
+      "remove_political_content_x_daemon_manager_rationale_19",
+      "remove_political_content_x_daemon_manager_rationale_53"
+    ],
+    "2": [
+      "following_cleaner_py",
+      "remove_political_content_x_following_cleaner_followingcleaner_clean_following",
+      "remove_political_content_x_following_cleaner_followingcleaner_init",
+      "remove_political_content_x_following_cleaner_rationale_1",
+      "remove_political_content_x_following_cleaner_rationale_79"
+    ],
+    "3": [
+      "remove_political_content_x_bridge_client_bridgeclient",
+      "remove_political_content_x_bridge_client_bridgeclient_init",
+      "remove_political_content_x_bridge_client_bridgeclient_is_daemon_alive",
+      "remove_political_content_x_bridge_client_rationale_66"
+    ],
+    "4": [
+      "remove_political_content_x_bridge_client_bridgeclient_evaluate",
+      "remove_political_content_x_bridge_client_bridgeclient_send_command",
+      "remove_political_content_x_bridge_client_rationale_19",
+      "remove_political_content_x_bridge_client_rationale_51"
+    ],
+    "5": [
+      "filter_rules_py",
+      "remove_political_content_x_filter_rules_contentfilter",
+      "remove_political_content_x_filter_rules_contentfilter_init",
+      "remove_political_content_x_filter_rules_rationale_1"
+    ],
+    "6": [
+      "remove_political_content_x_filter_rules_contentfilter_is_political_or_news",
+      "remove_political_content_x_filter_rules_contentfilter_is_protected",
+      "remove_political_content_x_filter_rules_rationale_25",
+      "remove_political_content_x_filter_rules_rationale_32"
+    ],
+    "7": [
+      "config_py",
+      "remove_political_content_x_config_rationale_1"
+    ],
+    "8": [
+      "bridge_client_py",
+      "remove_political_content_x_bridge_client_rationale_1"
+    ],
+    "9": [
+      "remove_political_content_x_bridge_client_bridgeclient_is_extension_connected",
+      "remove_political_content_x_bridge_client_rationale_77"
+    ],
+    "10": [
+      "remove_political_content_x_bridge_client_bridgeclient_navigate",
+      "remove_political_content_x_bridge_client_rationale_41"
+    ]
+  },
+  "cohesion": {
+    "0": 0.25,
+    "1": 0.2857142857142857,
+    "2": 0.4,
+    "3": 0.5,
+    "4": 0.5,
+    "5": 0.5,
+    "6": 0.5,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0
+  },
+  "gods": [
+    {
+      "id": "remove_political_content_x_bridge_client_bridgeclient",
+      "label": "BridgeClient",
+      "degree": 12
+    },
+    {
+      "id": "remove_political_content_x_filter_rules_contentfilter",
+      "label": "ContentFilter",
+      "degree": 8
+    },
+    {
+      "id": "remove_political_content_x_main_main",
+      "label": "main()",
+      "degree": 5
+    },
+    {
+      "id": "remove_political_content_x_bridge_client_rationale_1",
+      "label": "Resilient client interface for Kimi WebBridge Daemon. Manages HTTP command dispa",
+      "degree": 1
+    },
+    {
+      "id": "remove_political_content_x_bridge_client_rationale_19",
+      "label": "Dispatches an action payload to the Kimi WebBridge HTTP daemon.",
+      "degree": 1
+    },
+    {
+      "id": "remove_political_content_x_bridge_client_rationale_41",
+      "label": "Navigates the browser session to the target URL.",
+      "degree": 1
+    },
+    {
+      "id": "remove_political_content_x_bridge_client_rationale_51",
+      "label": "Evaluates JavaScript asynchronously in the active page context.",
+      "degree": 1
+    },
+    {
+      "id": "remove_political_content_x_bridge_client_rationale_66",
+      "label": "Checks if the local WebBridge daemon is active and responding.",
+      "degree": 1
+    },
+    {
+      "id": "remove_political_content_x_bridge_client_rationale_77",
+      "label": "Checks if the browser extension WebSocket is attached to the daemon.",
+      "degree": 1
+    },
+    {
+      "id": "remove_political_content_x_config_rationale_1",
+      "label": "Configuration and Seed List definitions for X Political Content Remover.",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "main()",
+      "target": "BridgeClient",
+      "source_files": [
+        "main.py",
+        "bridge_client.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

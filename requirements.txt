@@ -1,0 +1,4 @@
+# Standard Library only (Python 3.8+)
+# No external pip dependencies required for runtime execution.
+# Optional tooling:
+# graphify (knowledge graph analysis)

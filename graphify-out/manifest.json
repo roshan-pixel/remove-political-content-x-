@@ -1,0 +1,47 @@
+{
+  "C:\\Users\\sgarm\\remove-political-content-x-\\bridge_client.py": {
+    "mtime": 1790660957.2915537,
+    "ast_hash": "1572f7f9020983bbc16fa9e51c17b601",
+    "semantic_hash": "1572f7f9020983bbc16fa9e51c17b601"
+  },
+  "C:\\Users\\sgarm\\remove-political-content-x-\\config.py": {
+    "mtime": 1790660950.9139993,
+    "ast_hash": "261fca43682b023f35e1a03a1d93fe5c",
+    "semantic_hash": "261fca43682b023f35e1a03a1d93fe5c"
+  },
+  "C:\\Users\\sgarm\\remove-political-content-x-\\daemon_manager.py": {
+    "mtime": 1790660963.8238552,
+    "ast_hash": "f0b3ae5014d93c4c381e5100a8fed62b",
+    "semantic_hash": "f0b3ae5014d93c4c381e5100a8fed62b"
+  },
+  "C:\\Users\\sgarm\\remove-political-content-x-\\filter_rules.py": {
+    "mtime": 1790660972.696278,
+    "ast_hash": "7967942eb2900c14f5310ae09f132d09",
+    "semantic_hash": "7967942eb2900c14f5310ae09f132d09"
+  },
+  "C:\\Users\\sgarm\\remove-political-content-x-\\following_cleaner.py": {
+    "mtime": 1790660979.7824347,
+    "ast_hash": "454bb37402d0636a7bc614e19b17338a",
+    "semantic_hash": "454bb37402d0636a7bc614e19b17338a"
+  },
+  "C:\\Users\\sgarm\\remove-political-content-x-\\main.py": {
+    "mtime": 1790660998.1895506,
+    "ast_hash": "e2ecd51d7f697bb6c9e39c3dc5317c8a",
+    "semantic_hash": "e2ecd51d7f697bb6c9e39c3dc5317c8a"
+  },
+  "C:\\Users\\sgarm\\remove-political-content-x-\\sidebar_crawler.py": {
+    "mtime": 1790660988.2529967,
+    "ast_hash": "cbf3a41e4f2dd3e79fcfef181c724495",
+    "semantic_hash": "cbf3a41e4f2dd3e79fcfef181c724495"
+  },
+  "C:\\Users\\sgarm\\remove-political-content-x-\\README.md": {
+    "mtime": 1790661105.6994562,
+    "ast_hash": "b253949a7749cc82c6383b68e3132b76",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\sgarm\\remove-political-content-x-\\requirements.txt": {
+    "mtime": 1790661007.3770182,
+    "ast_hash": "3d474a5ef5f684736b0b06fe6008a629",
+    "semantic_hash": ""
+  }
+}
