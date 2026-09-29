@@ -30,9 +30,9 @@
     "semantic_hash": "e2ecd51d7f697bb6c9e39c3dc5317c8a"
   },
   "C:\\Users\\sgarm\\remove-political-content-x-\\sidebar_crawler.py": {
-    "mtime": 1790660988.2529967,
-    "ast_hash": "cbf3a41e4f2dd3e79fcfef181c724495",
-    "semantic_hash": "cbf3a41e4f2dd3e79fcfef181c724495"
+    "mtime": 1790662157.3277318,
+    "ast_hash": "37134d6baa8942d19383ff00e5e4ec8d",
+    "semantic_hash": ""
   },
   "C:\\Users\\sgarm\\remove-political-content-x-\\README.md": {
     "mtime": 1790662082.674058,
@@ -42,6 +42,16 @@
   "C:\\Users\\sgarm\\remove-political-content-x-\\requirements.txt": {
     "mtime": 1790661007.3770182,
     "ast_hash": "3d474a5ef5f684736b0b06fe6008a629",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\sgarm\\remove-political-content-x-\\mass_purge_engine.py": {
+    "mtime": 1790662516.21035,
+    "ast_hash": "2da2fb5f089a26c00bb45f03e2216b1e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\sgarm\\remove-political-content-x-\\mega_political_directory.py": {
+    "mtime": 1790662501.4827213,
+    "ast_hash": "e3ae629f2d225ed60215a7c4f4462ace",
     "semantic_hash": ""
   }
 }

@@ -297,7 +297,7 @@
       "source_file": "following_cleaner.py",
       "source_location": "L1",
       "id": "following_cleaner_py",
-      "community": 2,
+      "community": 0,
       "norm_label": "following_cleaner.py"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "following_cleaner.py",
       "source_location": "L73",
       "id": "remove_political_content_x_following_cleaner_followingcleaner",
-      "community": 2,
+      "community": 0,
       "norm_label": "followingcleaner"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "following_cleaner.py",
       "source_location": "L74",
       "id": "remove_political_content_x_following_cleaner_followingcleaner_init",
-      "community": 2,
+      "community": 0,
       "norm_label": ".__init__()"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "following_cleaner.py",
       "source_location": "L78",
       "id": "remove_political_content_x_following_cleaner_followingcleaner_clean_following",
-      "community": 2,
+      "community": 0,
       "norm_label": ".clean_following()"
     },
     {
@@ -333,7 +333,7 @@
       "source_file": "following_cleaner.py",
       "source_location": "L1",
       "id": "remove_political_content_x_following_cleaner_rationale_1",
-      "community": 2,
+      "community": 0,
       "norm_label": "following cleaner module. audits the authenticated user's following list, identi"
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "following_cleaner.py",
       "source_location": "L79",
       "id": "remove_political_content_x_following_cleaner_rationale_79",
-      "community": 2,
+      "community": 0,
       "norm_label": "iterates over targeted handles and blocks them sequentially."
     },
     {
@@ -373,12 +373,84 @@
       "norm_label": "main entrypoint for x political content remover. provides cli commands to clean"
     },
     {
+      "label": "mass_purge_engine.py",
+      "file_type": "code",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L1",
+      "id": "mass_purge_engine_py",
+      "community": 8,
+      "norm_label": "mass_purge_engine.py"
+    },
+    {
+      "label": "send_cmd()",
+      "file_type": "code",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L20",
+      "id": "remove_political_content_x_mass_purge_engine_send_cmd",
+      "community": 8,
+      "norm_label": "send_cmd()"
+    },
+    {
+      "label": "load_state()",
+      "file_type": "code",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L100",
+      "id": "remove_political_content_x_mass_purge_engine_load_state",
+      "community": 8,
+      "norm_label": "load_state()"
+    },
+    {
+      "label": "save_state()",
+      "file_type": "code",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L109",
+      "id": "remove_political_content_x_mass_purge_engine_save_state",
+      "community": 8,
+      "norm_label": "save_state()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L116",
+      "id": "remove_political_content_x_mass_purge_engine_main",
+      "community": 8,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Mass Purge Engine for X Political Content & News Channels. Systematically purges",
+      "file_type": "rationale",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L1",
+      "id": "remove_political_content_x_mass_purge_engine_rationale_1",
+      "community": 8,
+      "norm_label": "mass purge engine for x political content & news channels. systematically purges"
+    },
+    {
+      "label": "mega_political_directory.py",
+      "file_type": "code",
+      "source_file": "mega_political_directory.py",
+      "source_location": "L1",
+      "id": "mega_political_directory_py",
+      "community": 9,
+      "norm_label": "mega_political_directory.py"
+    },
+    {
+      "label": "Mega Political & News Account Directory for India. Comprehensive curated registr",
+      "file_type": "rationale",
+      "source_file": "mega_political_directory.py",
+      "source_location": "L1",
+      "id": "remove_political_content_x_mega_political_directory_rationale_1",
+      "community": 9,
+      "norm_label": "mega political & news account directory for india. comprehensive curated registr"
+    },
+    {
       "label": "sidebar_crawler.py",
       "file_type": "code",
       "source_file": "sidebar_crawler.py",
       "source_location": "L1",
       "id": "sidebar_crawler_py",
-      "community": 0,
+      "community": 2,
       "norm_label": "sidebar_crawler.py"
     },
     {
@@ -387,7 +459,7 @@
       "source_file": "sidebar_crawler.py",
       "source_location": "L84",
       "id": "remove_political_content_x_sidebar_crawler_sidebarcrawler",
-      "community": 0,
+      "community": 2,
       "norm_label": "sidebarcrawler"
     },
     {
@@ -396,7 +468,7 @@
       "source_file": "sidebar_crawler.py",
       "source_location": "L85",
       "id": "remove_political_content_x_sidebar_crawler_sidebarcrawler_init",
-      "community": 0,
+      "community": 2,
       "norm_label": ".__init__()"
     },
     {
@@ -405,7 +477,7 @@
       "source_file": "sidebar_crawler.py",
       "source_location": "L90",
       "id": "remove_political_content_x_sidebar_crawler_sidebarcrawler_run_discovery_loop",
-      "community": 0,
+      "community": 2,
       "norm_label": ".run_discovery_loop()"
     },
     {
@@ -414,7 +486,7 @@
       "source_file": "sidebar_crawler.py",
       "source_location": "L1",
       "id": "remove_political_content_x_sidebar_crawler_rationale_1",
-      "community": 0,
+      "community": 2,
       "norm_label": "recursive sidebar recommendation crawler. visits target accounts, extracts recom"
     },
     {
@@ -423,7 +495,7 @@
       "source_file": "sidebar_crawler.py",
       "source_location": "L91",
       "id": "remove_political_content_x_sidebar_crawler_rationale_91",
-      "community": 0,
+      "community": 2,
       "norm_label": "executes the bfs recommendation discovery and blocking loop."
     },
     {
@@ -486,7 +558,7 @@
       "source_file": "README.md",
       "source_location": "L84",
       "id": "remove_political_content_x_readme_core_engineering_highlights",
-      "community": 8,
+      "community": 3,
       "norm_label": "core engineering highlights"
     },
     {
@@ -495,7 +567,7 @@
       "source_file": "README.md",
       "source_location": "L86",
       "id": "remove_political_content_x_readme_1_zero_credential_in_browser_automation_via_kimi_webbridge",
-      "community": 8,
+      "community": 3,
       "norm_label": "1. zero-credential in-browser automation via kimi webbridge"
     },
     {
@@ -504,7 +576,7 @@
       "source_file": "README.md",
       "source_location": "L91",
       "id": "remove_political_content_x_readme_2_recursive_sidebar_recommendation_crawler_bfs_discovery_loop",
-      "community": 8,
+      "community": 3,
       "norm_label": "2. recursive sidebar recommendation crawler (bfs discovery loop)"
     },
     {
@@ -513,7 +585,7 @@
       "source_file": "README.md",
       "source_location": "L100",
       "id": "remove_political_content_x_readme_3_precision_heuristic_classifier_whitelisting_guardrail",
-      "community": 8,
+      "community": 3,
       "norm_label": "3. precision heuristic classifier & whitelisting guardrail"
     },
     {
@@ -522,7 +594,7 @@
       "source_file": "README.md",
       "source_location": "L105",
       "id": "remove_political_content_x_readme_4_resilient_multi_stage_dom_action_pipeline",
-      "community": 8,
+      "community": 3,
       "norm_label": "4. resilient multi-stage dom action pipeline"
     },
     {
@@ -1204,6 +1276,17 @@
       "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "remove_political_content_x_mass_purge_engine_main",
+      "target": "remove_political_content_x_filter_rules_contentfilter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
       "source_file": "sidebar_crawler.py",
       "source_location": "L88",
       "weight": 1.0,
@@ -1247,9 +1330,9 @@
       "source_file": "filter_rules.py",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "remove_political_content_x_filter_rules_rationale_31",
-      "target": "remove_political_content_x_filter_rules_contentfilter_is_protected",
-      "confidence_score": 1.0
+      "target": "remove_political_content_x_filter_rules_contentfilter_is_protected"
     },
     {
       "relation": "rationale_for",
@@ -1267,9 +1350,9 @@
       "source_file": "filter_rules.py",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "remove_political_content_x_filter_rules_rationale_38",
-      "target": "remove_political_content_x_filter_rules_contentfilter_is_political_or_news",
-      "confidence_score": 1.0
+      "target": "remove_political_content_x_filter_rules_contentfilter_is_political_or_news"
     },
     {
       "relation": "rationale_for",
@@ -1414,6 +1497,99 @@
       "weight": 1.0,
       "source": "remove_political_content_x_main_main",
       "target": "sidebar_crawler_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "mass_purge_engine_py",
+      "target": "remove_political_content_x_mass_purge_engine_send_cmd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "mass_purge_engine_py",
+      "target": "remove_political_content_x_mass_purge_engine_load_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "mass_purge_engine_py",
+      "target": "remove_political_content_x_mass_purge_engine_save_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "mass_purge_engine_py",
+      "target": "remove_political_content_x_mass_purge_engine_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "remove_political_content_x_mass_purge_engine_rationale_1",
+      "target": "mass_purge_engine_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "remove_political_content_x_mass_purge_engine_main",
+      "target": "remove_political_content_x_mass_purge_engine_send_cmd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "remove_political_content_x_mass_purge_engine_main",
+      "target": "remove_political_content_x_mass_purge_engine_load_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mass_purge_engine.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "remove_political_content_x_mass_purge_engine_main",
+      "target": "remove_political_content_x_mass_purge_engine_save_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "mega_political_directory.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "remove_political_content_x_mega_political_directory_rationale_1",
+      "target": "mega_political_directory_py",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1817,5 +1993,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e6402c18a3afd2ee7a77777b81fdfcd0ff0730ab"
+  "built_at_commit": "2fab7d044067f00558b64efc9bdf603de01d7958"
 }

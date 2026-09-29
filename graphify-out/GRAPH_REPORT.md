@@ -1,16 +1,16 @@
 # Graph Report - remove-political-content-x-  (2026-09-29)
 
 ## Corpus Check
-- 8 files · ~3,525 words
+- 10 files · ~4,973 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 83 nodes · 105 edges · 9 communities (8 shown, 1 thin omitted)
-- Extraction: 81% EXTRACTED · 19% INFERRED · 0% AMBIGUOUS · INFERRED: 20 edges (avg confidence: 0.65)
+- 91 nodes · 115 edges · 10 communities (8 shown, 2 thin omitted)
+- Extraction: 82% EXTRACTED · 18% INFERRED · 0% AMBIGUOUS · INFERRED: 21 edges (avg confidence: 0.66)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e6402c18`
+- Built from commit: `2fab7d04`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -24,36 +24,37 @@
 - [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_Community 7|Community 7]]
 - [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `BridgeClient` - 15 edges
-2. `X Political Content & Journalist Purge Engine` - 11 edges
-3. `ContentFilter` - 10 edges
+2. `ContentFilter` - 11 edges
+3. `X Political Content & Journalist Purge Engine` - 11 edges
 4. `main()` - 8 edges
 5. `DaemonManager` - 6 edges
 6. `FollowingCleaner` - 6 edges
 7. `SidebarCrawler` - 6 edges
 8. `Getting Started & Usage` - 6 edges
-9. `Core Engineering Highlights` - 5 edges
-10. `Graphify Knowledge Graph & Codebase Navigation` - 5 edges
+9. `main()` - 5 edges
+10. `Core Engineering Highlights` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `FollowingCleaner` --uses--> `BridgeClient`  [INFERRED]
   following_cleaner.py → bridge_client.py
 - `SidebarCrawler` --uses--> `BridgeClient`  [INFERRED]
   sidebar_crawler.py → bridge_client.py
-- `SidebarCrawler` --uses--> `ContentFilter`  [INFERRED]
-  sidebar_crawler.py → filter_rules.py
+- `FollowingCleaner` --uses--> `ContentFilter`  [INFERRED]
+  following_cleaner.py → filter_rules.py
+- `main()` --calls--> `ContentFilter`  [INFERRED]
+  mass_purge_engine.py → filter_rules.py
 - `main()` --calls--> `FollowingCleaner`  [INFERRED]
   main.py → following_cleaner.py
-- `main()` --calls--> `SidebarCrawler`  [INFERRED]
-  main.py → sidebar_crawler.py
 
-## Communities (9 total, 1 thin omitted)
+## Communities (10 total, 2 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.47
-Nodes (3): Recursive Sidebar Recommendation Crawler. Visits target accounts, extracts recom, Executes the BFS recommendation discovery and blocking loop., SidebarCrawler
+Nodes (3): FollowingCleaner, Following Cleaner Module. Audits the authenticated user's Following list, identi, Iterates over targeted handles and blocks them sequentially.
 
 ### Community 1 - "Community 1"
 Cohesion: 0.15
@@ -61,11 +62,11 @@ Nodes (10): BridgeClient, Resilient client interface for Kimi WebBridge Daemon. 
 
 ### Community 2 - "Community 2"
 Cohesion: 0.17
-Nodes (9): ContentFilter, Political and News Content Classification Rules. Provides fast heuristic filteri, Returns True if the handle belongs to the protected tech/creator whitelist., Returns True if the handle belongs to the protected tech, creator, or financial, Evaluates whether an account matches political, government, or news media heuris, Evaluates whether an account matches political or news media heuristics,, FollowingCleaner, Following Cleaner Module. Audits the authenticated user's Following list, identi (+1 more)
+Nodes (9): ContentFilter, Political and News Content Classification Rules. Provides fast heuristic filteri, Returns True if the handle belongs to the protected tech/creator whitelist., Returns True if the handle belongs to the protected tech, creator, or financial, Evaluates whether an account matches political, government, or news media heuris, Evaluates whether an account matches political or news media heuristics,, Recursive Sidebar Recommendation Crawler. Visits target accounts, extracts recom, Executes the BFS recommendation discovery and blocking loop. (+1 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.17
-Nodes (11): Codebase Components, code:mermaid (flowchart TD), code:mermaid (sequenceDiagram), code:python (PROTECTED_WHITELIST = {), End-to-End Sequence Flow, License, Overview, Safety & Whitelist Guardrails (+3 more)
+Cohesion: 0.12
+Nodes (16): 1. Zero-Credential In-Browser Automation via Kimi WebBridge, 2. Recursive Sidebar Recommendation Crawler (BFS Discovery Loop), 3. Precision Heuristic Classifier & Whitelisting Guardrail, 4. Resilient Multi-Stage DOM Action Pipeline, Codebase Components, code:mermaid (flowchart TD), code:mermaid (sequenceDiagram), code:python (PROTECTED_WHITELIST = {) (+8 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.33
@@ -80,27 +81,27 @@ Cohesion: 0.33
 Nodes (6): code:bash (# Query architectural paths between components), Core Abstractions (God Nodes), Graph Metrics, Graph Queries, Graphify Knowledge Graph & Codebase Navigation, Visual Interactive Graphs
 
 ### Community 8 - "Community 8"
-Cohesion: 0.40
-Nodes (5): 1. Zero-Credential In-Browser Automation via Kimi WebBridge, 2. Recursive Sidebar Recommendation Crawler (BFS Discovery Loop), 3. Precision Heuristic Classifier & Whitelisting Guardrail, 4. Resilient Multi-Stage DOM Action Pipeline, Core Engineering Highlights
+Cohesion: 0.53
+Nodes (5): load_state(), main(), Mass Purge Engine for X Political Content & News Channels. Systematically purges, save_state(), send_cmd()
 
 ## Knowledge Gaps
 - **21 isolated node(s):** `Table of Contents`, `Overview`, `code:mermaid (flowchart TD)`, `1. Zero-Credential In-Browser Automation via Kimi WebBridge`, `2. Recursive Sidebar Recommendation Crawler (BFS Discovery Loop)` (+16 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `BridgeClient` connect `Community 1` to `Community 0`, `Community 2`, `Community 4`?**
-  _High betweenness centrality (0.180) - this node is a cross-community bridge._
-- **Why does `X Political Content & Journalist Purge Engine` connect `Community 3` to `Community 8`, `Community 5`, `Community 6`?**
-  _High betweenness centrality (0.134) - this node is a cross-community bridge._
-- **Why does `ContentFilter` connect `Community 2` to `Community 0`?**
-  _High betweenness centrality (0.112) - this node is a cross-community bridge._
+  _High betweenness centrality (0.176) - this node is a cross-community bridge._
+- **Why does `ContentFilter` connect `Community 2` to `Community 0`, `Community 8`?**
+  _High betweenness centrality (0.162) - this node is a cross-community bridge._
+- **Why does `X Political Content & Journalist Purge Engine` connect `Community 3` to `Community 5`, `Community 6`?**
+  _High betweenness centrality (0.111) - this node is a cross-community bridge._
 - **Are the 8 inferred relationships involving `BridgeClient` (e.g. with `DaemonManager` and `FollowingCleaner`) actually correct?**
   _`BridgeClient` has 8 INFERRED edges - model-reasoned connections that need verification._
-- **Are the 6 inferred relationships involving `ContentFilter` (e.g. with `FollowingCleaner` and `SidebarCrawler`) actually correct?**
-  _`ContentFilter` has 6 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 7 inferred relationships involving `ContentFilter` (e.g. with `FollowingCleaner` and `SidebarCrawler`) actually correct?**
+  _`ContentFilter` has 7 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 7 inferred relationships involving `main()` (e.g. with `DaemonManager` and `BridgeClient`) actually correct?**
   _`main()` has 7 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 2 inferred relationships involving `DaemonManager` (e.g. with `BridgeClient` and `main()`) actually correct?**
